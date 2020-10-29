@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            h1,h2{
+                text-align: center;
+                color: orange;
+            }
+
+            *{
+                background-color: chocolate;
+            }
+
+            .halt{
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                background-color: black;
+            }
+
+            .hTutorial{
+                border: dashed;
+                padding: 30px;
+                margin: 25px;
+                border: dashed;
+                border-radius: 50px;
+                text-align: center;
+                background-color: black;
+            }
+
+            .hTutorial h2{
+                color: orange;
+                background-color: black;
+            }
+
+            .hTutorial p{
+                color: orange;
+                background-color: black;
+            }
+
+            .hTutorial{
+                position: relative;
+            }
+
+            .hTutorial h2{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                opacity: 0;
+            }
+
+            .hTutorial:hover h2{
+                opacity: 1;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <h1>HALLOWEEN !</h1>
+        <h2>SEE THESE HALLOWEEN TUTORIALS</h2>
+
+        <div class="HalT">
+
+            <div class="hTutorial">
+                <h2>Origami Pumpkin</h2>
+                <a href="https://www.youtube.com/watch?v=j4lE8r141wI"><img src="pumpkin.jpg " width="700" height="500"></a>
+                <p>Click to know more</p>
+            </div>
+
+            <div class="hTutorial">
+                <h2>Origami Bat</h2>
+                <a href="https://www.youtube.com/watch?v=2SiNIJAv1l4"><img src="bat.jpg" height="500" width="500"></a>
+                <p>Click to know more</p>
+            </div>
+
+        </div>  
+    </body>
+</html>

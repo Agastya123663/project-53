@@ -1,0 +1,142 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    background-color: skyblue;
+}
+
+.comp{
+    border: dashed;
+    text-align: center;
+   background-color: skyblue;
+
+}
+
+.comp a{
+    opacity: 0;
+}
+
+.comp:hover a{
+    opacity: 1;
+}
+
+*{
+   background-color: #a4b7f5;
+
+}
+
+a{
+    text-align: center;
+    font-size: larger;
+    color: oldlace;
+}
+
+p{
+    text-align: center;
+    font-size: x-large;
+    font-style: unset;
+}
+
+.clan{
+    background-color: paleturquoise;
+    border: dashed;
+    text-align: center;
+}
+
+.clan a{
+    background-color: blue;
+    text-align: center;
+}
+
+.clan p{
+    background-color: paleturquoise;
+}
+
+.leaderboard{
+    justify-content: end;
+   
+}
+
+.course{
+    border: dashed;
+    text-align: center;
+    background-color: #f2e2dc;
+}
+
+.course p{
+    background-color: #f2e2dc;
+}
+
+.course a{
+    background-color: #f2e2dc;
+    color: violet;
+}
+
+.art{
+    border: dashed;
+    background-color: #eca4f5;
+}
+
+.art p{
+    background-color: #eca4f5;
+}
+
+.tutorial{
+    text-align: center;
+}
+
+.halloween{
+    border: dashed;
+    text-align: center;
+    background-color: springgreen;
+
+}
+
+.halloween h1{
+    color: red;
+    background-color: springgreen;
+}
+
+.halloween p{
+    background-color: springgreen;
+}
+
+.halloween h2{
+    background-color: springgreen;
+}
+
+.halloween a{
+    background-color: springgreen;
+    color: tomato;
+}
+
+.clan a{
+    opacity: 0;
+}
+
+.clan:hover a{
+    opacity: 1;
+}
+
+.course a{
+    opacity: 0;
+}
+
+.course:hover a{
+    opacity: 1;
+}
+
+.halloween a{
+    opacity: 0;
+}
+
+.halloween:hover a{
+    opacity: 1;
+}
+
+
+
+
+
+
